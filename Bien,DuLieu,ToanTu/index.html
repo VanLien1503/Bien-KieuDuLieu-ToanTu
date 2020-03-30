@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biến kiểu Giữ Liệu</title>
+    <link rel="stylesheet" href="../../../untitled2/.OnTap/game_Doan_So/style.css">
+</head>
+<body>
+<h1> Bài Tập<br/>Biến,Kiểu Dữ Liệu,Toán Tử</h1>
+<hr>
+<table class="table1">
+    <tr>
+        <th>Bài 01</th>
+        <th>Bài 02</th>
+        <th>Bài 03</th>
+        <th>Bài 04</th>
+    </tr>
+    <tr>
+        <td>Viết Điểm Trung bình Toán Lý Hóa Được Nhập Vào</td>
+        <td>viết Trương Chình Chuyển Đổi Từ Độ C Sang Dộ F</td>
+        <td>Viết Trương Trình Tính Diện Tính Hình Tròn </td>
+        <td>Viết Trương Trình Tính Chu Vi Hình Tròn</td>
+    </tr>
+    <tr>
+        <td><table>
+            <tr>
+                <td><input type="number"id="toan"placeholder="Nhập Điểm Toán"></td>
+                <td><button type="button"onclick="result()">Result</button><br>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="number"id="hoa"placeholder="Nhập Điểm Hoa"></td>
+                <td rowspan="2"><p id="KQ"></p></td>
+            </tr>
+            <tr>
+                <td><input type="number"id="ly"placeholder="Nhập Điểm Ly"></td>
+            </tr>
+        </table>
+        </td>
+        <td><table>
+            <tr>
+                <td><input type="number"id="inputC"placeholder="Nhập Nhiệt Độ C Cần Đổi"></td>
+                <td rowspan="2"><button type="button"onclick="check()">Run</button></td>
+            </tr>
+            <tr>
+                <td><p id="F">Nhiệt Độ F:</p></td>
+            </tr>
+        </table>
+        </td>
+        <td>
+            <input type="number"id="duongkinhR"placeholder="Nhập Đường Kính">
+            <button type="button"onclick="ChuVi()">Run</button>
+            <p id="chuvi"></p>
+        </td>
+        <td>
+            <input type="number"id="A"placeholder="Nhập chiều dài">
+            <input type="number"id="B"placeholder="Nhập chiều rộng">
+            <button type="button"onclick="dientich()">Run</button>
+            <p id="dientich"></p>
+        </td>
+    </tr>
+</table>
+<script src="app.js"></script>
+
+</body>
+</html>
